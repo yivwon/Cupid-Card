@@ -24,15 +24,20 @@ body {
 }
 
 .btn {
-  padding-top: 11px;
-  padding-left: 100px;
+  padding-top: 12px;
+  max-width: 164px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.yes {
+  justify-self: start;
 }
 
-.yes {
-  position: absolute;
-  left: 540px;
-  top: 430px;
+.no {
+  justify-self: end;
 }
+
 
 .btn a {
   text-decoration: none;
