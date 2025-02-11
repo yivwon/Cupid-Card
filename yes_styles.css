@@ -80,26 +80,28 @@ body {
 
 .words {
     position: absolute;
-    left: 10%;
-    width: 80%;
     height: 14%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:    sans-serif;
     color: black;
 }
 
 .line1 {
-    top: 15%;
+    top: 5%;
 }
 .line2 {
-    top: 30%;
+    top: 25%;
+    text-align: center;
 }
 .line3 {
-    top: 50%;
+    top: 40%;
     text-align: center;
 }
 .line4 {
-    top: 65%;
+    top: 55%;
     text-align: center;
 }
 
@@ -207,47 +209,3 @@ body {
         margin-left: 50px;
     }
 }
-
-.reset {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.reset button {
-    text-decoration: none;
-    color: #ffffff;
-    background: #ff6b6b;
-    padding: 10px 25px;
-    border-radius: 8px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
-    border: none;
-}
-
-.reset button:hover {
-    background-color: #FF6863;
-    cursor: pointer;
-    color: white;
-}
-
-.valentine {
-    text-align: center;
-    font-family: sans-serif;
-    color:rgb(20, 20, 20);
-}
-
-@keyframes vibrate {
-    0% { transform: translate(0px, 0px); }
-    20% { transform: translate(-2px, 2px); }
-    40% { transform: translate(2px, -2px); }
-    60% { transform: translate(-2px, 2px); }
-    80% { transform: translate(2px, -2px); }
-    100% { transform: translate(0px, 0px); }
-}
-
-.vibrating {
-    animation: vibrate 0.2s linear infinite;
-}
-
